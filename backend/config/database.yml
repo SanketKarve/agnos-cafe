@@ -82,5 +82,3 @@ development:
 production:
   <<: *default
   database: agnos_production
-  username: <%= ENV["DATABASE_USERNAME"] %>
-  password: <%= ENV["DATABASE_PASSWORD"] %>
